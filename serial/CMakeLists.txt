@@ -53,3 +53,6 @@ if(TESTS_ENABLED)
 else()
   message(STATUS "Testing disabled.")
 endif()
+
+# register project in CMake user registry
+# export(PACKAGE ${PROJECT_NAME})
