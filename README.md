@@ -1,4 +1,5 @@
 # Serial Communication Library
+[![Build Status](https://travis-ci.com/lokraszewski/serial.svg?branch=master)](https://travis-ci.com/lokraszewski/serial)
 
 This is a fork of an exccelent cross-platform library for interfacing with rs-232 serial like ports written in C++ [serial](https://github.com/wjwwood/serial) by [wjwwood](https://github.com/wjwwood). 
 
@@ -52,5 +53,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### Orignal Authors
 Thanks to
-    * William Woodall <wjwwood@gmail.com>
-    * John Harrison <ash.gti@gmail.com>
+* William Woodall wjwwood@gmail.com
+* John Harrison ash.gti@gmail.com
