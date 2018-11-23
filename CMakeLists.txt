@@ -1,6 +1,12 @@
 cmake_minimum_required(VERSION 3.9)
 project(serial VERSION 1.0.0 LANGUAGES CXX)
 
+if (NOT CMAKE_BUILD_TYPE)
+    message(STATUS "No build type selected, defaulting to Debug")
+    set(CMAKE_BUILD_TYPE "Debug")
+endif()
+
+add_compile_options("-Wall" "-Wextra" "-Werror" "$<$<CONFIG:RELEASE>:-O3>")
 
 # create our library target:
 add_library(${PROJECT_NAME}
